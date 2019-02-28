@@ -1,4 +1,7 @@
 # Laravel-MVCSP
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Latest Version on Packagist][ico-download]][link-packagist]
+
 
 Implement MVC + Service + Presenter layer to Laravel 5
 
@@ -96,5 +99,10 @@ $data = FooPresenter::parse();
 ## License
 
 Please see the [license file](license.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/salipropham/laravel-mvcsp.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/salipropham/laravel-mvcsp
+
+[ico-download]: https://img.shields.io/github/downloads/salipropham/laravel-mvcsp/latest/total.svg?style=flat-square
 
 
