@@ -1,6 +1,6 @@
 {
     "name": "salipropham/laravel-mvcsp",
-    "description": ":description",
+    "description": "Implement MVC + Service + Presenter layer to Laravel 5",
     "license": "AML",
     "authors": [
         {
