@@ -1,4 +1,4 @@
 # The license
 
-Copyright (c) SaliproPham <salipropham@suga.vn>
+Copyright (c) SaliproPham <salipropham@gmail.com>
 
