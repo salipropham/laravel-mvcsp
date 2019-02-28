@@ -1,0 +1,9 @@
+<?php
+
+namespace DummyNamespace;
+use SaliproPham\LaravelMVCSP\Service;
+
+class DummyClass extends Service
+{
+    //
+}

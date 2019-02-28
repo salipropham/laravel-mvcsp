@@ -1,0 +1,41 @@
+{
+    "name": "salipropham/laravel-mvcsp",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "SaliproPham",
+            "email": "salipropham@gmail.com",
+            "homepage": "salipropham.github.io"
+        }
+    ],
+    "homepage": "https://github.com/salipropham/laravel-mvcsp",
+    "keywords": ["Laravel", "LaravelMVCSP", "Service Layer","Presenter Layer"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaliproPham\\LaravelMVCSP\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SaliproPham\\LaravelMVCSP\\LaravelMVCSPServiceProvider"
+            ]
+        }
+    }
+}

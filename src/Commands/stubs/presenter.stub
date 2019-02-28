@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+use SaliproPham\LaravelMVCSP\Presenter;
+
+class DummyClass extends Presenter
+{
+    public function transform()
+    {
+        // TODO: Implement transform() method.
+    }
+}
