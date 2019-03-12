@@ -138,7 +138,7 @@ abstract class Presenter implements Arrayable
         throw new \BadMethodCallException('Call to undefined method ' . get_class($this) . '::' . $name . '()');
     }
 
-    public function __callStatic($name, $arguments)
+    public static function __callStatic($name, $arguments)
     {
         $ins = new static();
         if($name === 'parse'){
